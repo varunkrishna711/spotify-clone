@@ -13,6 +13,6 @@ router.post("/", async(req,res) => {
     
     const token = user.generateAuthToken();
     res.status(200).send({data:token, message: "Signing In Please wait..."});
-})
+})  
 
 module.exports = router; 
