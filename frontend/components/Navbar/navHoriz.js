@@ -12,10 +12,10 @@ const navVertical = () => {
                     <FontAwesomeIcon icon={faArrowRight} className="ml-16" />
                 </div> */}
 
-                <div className="flex gap-4 justify-end mr-64">
-                    <h4 className="text-white mt-6 text-xl">Premium</h4>
-                    <h4 className="text-white mt-6 text-xl">Support</h4>
-                    <h4 className="text-white mt-6 text-xl">Download</h4>
+                <div className="flex gap-4 justify-end mr-32">
+                    <a className="text-white mt-6 text-xl hover:text-red-500 hover:scale-105 transition duration-300 cursor-pointer">Premium</a>
+                    <a className="text-white mt-6 text-xl">Support</a>
+                    <a className="text-white mt-6 text-xl">Download</a>
                 </div>
 
                 <div className="signup-login flex gap-16 justify-end mr-16">
